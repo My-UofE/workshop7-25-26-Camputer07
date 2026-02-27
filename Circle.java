@@ -40,4 +40,14 @@ public class Circle {
     public double getArea() {
        return radius * radius * Math.PI;
     }
+
+    // Instance method
+   public void printClassInfo() {
+      System.out.println("It is a Circle class");
+   }
+
+   // Static method
+   public static void printClassInfoStatic() {
+      System.out.println("It is a Circle class");
+   }
  }
